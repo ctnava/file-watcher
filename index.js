@@ -44,7 +44,7 @@ module.exports = class Watch {
 	constructor(pathToFile) {
 		this.#pathTo = pathToFile;
 		this.#accessTime = 0;
-		if (fs.existsSync(pathTo)) this.egress();
+		if (fs.existsSync(pathToFile)) this.egress();
 		else this.ingress({});
 	}
 };
