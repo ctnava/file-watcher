@@ -24,7 +24,7 @@ const save = (pathTo, data) => {
 	fs.writeFileSync(pathTo, prepared);
 };
 
-module.exports = class FileWatcher {
+module.exports = class Watch {
 	#pathTo;
 	#accessTime;
 
