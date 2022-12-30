@@ -6,7 +6,7 @@ const needsUpdate = (pathTo, accessTime) => {
 };
 
 const extension = (pathTo) =>
-	pathTo.split('.')[pathTo.split('.').length].toLowerCase();
+	pathTo.split('.')[pathTo.split('.').length - 1].toLowerCase();
 
 const extract = (pathTo) => {
 	let output = fs.readFileSync(pathTo);
