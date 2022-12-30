@@ -1,27 +1,27 @@
 {
-  "name": "@ctnava/file-watcher",
-  "version": "1.0.0",
-  "description": "'live reload', but in class-form",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ctnava/file-watcher.git"
-  },
-  "keywords": [
-    "live",
-    "reload",
-    "file",
-    "fs",
-    "watch",
-    "watcher"
-  ],
-  "author": "ctnava",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ctnava/file-watcher/issues"
-  },
-  "homepage": "https://github.com/ctnava/file-watcher#readme"
+	"name": "@ctnava/file-watcher",
+	"version": "1.0.1",
+	"description": "'live reload', but in class-form",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ctnava/file-watcher.git"
+	},
+	"keywords": [
+		"live",
+		"reload",
+		"file",
+		"fs",
+		"watch",
+		"watcher"
+	],
+	"author": "ctnava",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ctnava/file-watcher/issues"
+	},
+	"homepage": "https://github.com/ctnava/file-watcher#readme"
 }
